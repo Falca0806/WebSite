@@ -1,0 +1,520 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#container{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#header{
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align:center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    line-height: 200px;
+    background-image: url(https://pbs.twimg.com/profile_banners/727000146/1417702052/1500x500);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+}
+
+
+#nav{
+    background-color:rgb(0, 153, 255);
+    width: 100%;
+    
+}
+
+#nav ul{
+    display: flex;
+    
+    justify-content: center;
+}
+
+#nav ul li{
+    list-style: none;
+   
+}
+
+#nav ul li a{
+    text-decoration: none;
+    padding: 20px 25px 20px 25px;
+    display: table;
+    color: black;
+}
+
+#nav ul li a:hover{
+    background-color: rgb(0, 77, 152);
+    color:black;
+}
+
+#index, #index2, #index3, #index4, #index5, #index6{
+    width: 100%;
+    height: 100%;
+    display: table;
+    
+}
+
+#index h1, #index2 h1, #index3 h1, #index4 h1, #index5 h1, #index6 h1{
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: black;
+    margin-left: 3px;
+}
+
+#index h2, #index2 h2, #index3 h2, #index4 h2, #index5 h2, #index6 h2{
+    text-align: justify;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: black;
+    margin-left: 3%;
+}
+
+#index h3, #index2 h3, #index3 h3, #index4 h3, #index5 h3, #index6 h3{
+    color: rgb(0, 77, 152);
+    margin-left: 3%;
+}
+
+#index h4, #index2 h4, #index3 h4, #index4 h4, #index5 h4, #index6 h4{
+    color: rgb(0, 77, 152);
+    margin-left: 3%;
+}
+
+#index p, #index2 p, #index3 p, #index4 p, #index5 p, #index6 p{
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify;
+}
+
+.texto-justificado{
+    text-align: justify;
+}
+
+hr{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color:black;
+    height: 2px;
+}
+
+.texto-flotante{
+    float: left;
+}
+
+.imagen{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 3%;
+    height: 20%;
+}
+
+/*PERROS Y GATOS*/
+.imagen2{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    width: 20%;
+    height: 220px;
+}
+
+/*REPTILES*/
+.imagen3{
+    margin-right: 35px;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    width: 9%;
+    height: 150px;
+}
+
+/*ROEDORES*/
+.imagen4{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    width: 20%;
+    height: 220px;
+}
+
+/*MARCAS*/
+.imagen5{
+    margin-right: 37px;
+    margin-left: 40px;
+    margin-bottom: 2px;
+    margin-top: 6px;
+}
+
+#arriba{
+    background-color: rgb(0, 77, 152);
+    color: black;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    right: 11px;
+    position: fixed;
+    bottom: 170px;
+    border-radius: 100%;
+}
+
+#arriba a{
+    text-decoration: none;
+    color: black;
+    font-size: 250%;
+}
+
+#arriba:hover{
+    background-color: rgb(0, 153, 255);
+    color: black;
+}
+
+#arriba a:hover{
+    color: black;
+}
+
+#footer{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(0, 153, 255);
+    color: black;
+    text-align: center;
+    padding-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+label{
+    margin-left: 30px;
+    font-weight: 800;
+}
+
+input[type=text]{
+    margin-left: 30px;
+    width: 350px;
+    height: 25px;
+    border-radius: 5%;
+    padding-left: 6px;
+}
+
+input[type=number]{
+    margin-left: 30px;
+    width: 350px;
+    height: 25px;
+    border-radius: 5%;
+    padding-left: 6px;
+}
+
+input[type=email]{
+    margin-left: 30px;
+    width: 350px;
+    height: 25px;
+    border-radius: 5%;
+    padding-left: 6px;
+}
+
+textarea{
+    margin-left: 30px;
+    width: 350px;
+    border-radius: 5%;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+input[type=submit]{
+    margin-left: 30px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5%;
+    background-color: rgb(0, 77, 152);
+    color: white;
+    font-weight: bold;
+}
+
+input[type=reset]{
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5%;
+    background-color: rgb(3, 138, 37);
+    color: white;
+    font-weight: bold;
+}
+
+.separacion-derecha{
+    margin-right: 50px;
+}
+
+@media(max-width:600px){
+
+    #container{
+        display: table;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+        #header{
+            line-height: 90px;
+            font-size: 15px;
+            background-image: url(https://pbs.twimg.com/profile_banners/727000146/1417702052/1500x500);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+    
+        #nav{
+            background-color: rgb(0, 153, 255);
+            width: 100%;
+            height: 50px;
+            transition: all 0.5s;
+            display: table;
+            border: 1px white solid;
+            /*border: 1px white solid;*/
+        }
+        
+        #nav ul{
+            padding: 0px;
+            margin: 0px;
+            flex-direction: column;
+           
+        }
+        
+        #nav ul li{
+            border-bottom: 1px solid white;
+            width: 100%;
+            list-style: none;
+        }
+        
+        #nav ul li a{
+            text-decoration: none;
+            display: table;
+            color: white;
+            width: 85.5%;
+        }
+        
+        
+        #index, #index2, #index3, #index4, #index5, #index6{
+            width: 92%;
+            height: 100%;
+            display: table;
+        }
+
+        #index h1, #index2 h1, #index3 h1, #index4 h1, #index5 h1, #index6 h1{
+            text-align: left;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            color: black;
+            margin-left: 3px;
+        }
+        
+        #index h2, #index2 h2, #index3 h2, #index4 h2, #index5 h2, #index6 h2{
+            text-align: center;
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+    
+        #index h3, #index2 h3, #index3 h3, #index4 h3, #index5 h3, #index6 h3{
+            color: rgb(0, 77, 152);
+        }
+        #index h4, #index2 h4, #index3 h4, #index4 h4, #index5 h4, #index6 h4{
+            color: rgb(0, 77, 152);
+        }
+        
+        #index p, #index2 p, #index3 p, #index4 p, #index5 p, #index6 p{
+            padding-left: 2%;
+            padding-right: 2%;
+            text-align: justify;
+        }
+        .texto-justificado{
+            text-align: justify;
+        }
+        
+        hr{
+            margin-top: 1%;
+            margin-bottom: 2%;
+            background-color:black;
+            height: 1.5px;
+        }
+        
+        .texto-flotante{
+            float: left;
+        }
+        
+        /*ICONOS*/
+        .imagen{
+            margin-right: 20px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            width: 15%;
+            height: 30%;
+        }
+
+        /*PERROS Y GATOS*/
+        .imagen2{
+            margin-right: 10px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            width: 45%;
+            height: 30%;
+        }
+        
+        /*REPTILES*/
+        .imagen3{
+            margin-right: 10px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            width: 20%;
+            height: 30%;
+        }
+        
+        /*ROEDORES*/
+        .imagen4{
+            margin-right: 0px;
+            margin-left: 0px;
+            margin-bottom: 5px;
+            margin-top: 20px;
+            width: 50%;
+            height: 10%;
+        }
+        
+        /*MARCAS*/
+        .imagen5{
+            margin-right: 10px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            width: 35%;
+            height: 30%;
+        }
+        
+        #arriba{
+            background-color: rgb(0, 77, 152);
+            color: black;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            line-height: 25px;
+            right: 12px;
+            position: fixed;
+            bottom: 210px;
+            border-radius: 100%;
+        }
+        
+        #arriba a{
+            text-decoration: none;
+            color: black;
+            font-size: 200%;
+        }
+        
+        #arriba:hover{
+            background-color: rgb(0, 153, 255);
+            color: black;
+        }
+        
+        #arriba a:hover{
+            color: black;
+        }
+    
+        #footer{
+            width: 100%;
+            height: 80px;
+            background-color: rgb(0, 153, 255);
+            color: black;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 10%;
+            font-size: 14px;
+        }
+
+        .negrita{
+            font-weight: bold;
+        }
+        
+        label{
+            margin-left: 30px;
+            font-weight: 800;
+        }
+        
+        input[type=text]{
+            margin-left: 30px;
+            width: 270px;
+            height: 25px;
+            border-radius: 5%;
+            padding-left: 6px;
+        }
+        
+        input[type=number]{
+            margin-left: 30px;
+            width: 270px;
+            height: 25px;
+            border-radius: 5%;
+            padding-left: 6px;
+        }
+        
+        input[type=email]{
+            margin-left: 30px;
+            width: 270px;
+            height: 25px;
+            border-radius: 5%;
+            padding-left: 6px;
+        }
+        
+        textarea{
+            margin-left: 30px;
+            width: 270px;
+            border-radius: 5%;
+            padding-left: 6px;
+            padding-top: 6px;
+        }
+        
+        input[type=submit]{
+            margin-left: 30px;
+            width: 150px;
+            height: 30px;
+            border-radius: 5%;
+            background-color: rgb(0, 77, 152);
+            color: white;
+            font-weight: bold;
+        }
+        
+        input[type=reset]{
+            margin-left: 30px;
+            width: 100px;
+            height: 30px;
+            border-radius: 5%;
+            background-color: rgb(3, 138, 37);
+            color: white;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }        
+
+        
+    }
+    
+    
